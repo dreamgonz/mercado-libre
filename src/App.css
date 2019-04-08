@@ -23,6 +23,15 @@
   color: #61dafb;
 }
 
+.Buscador_header{
+  background-color: #FFE600;
+  padding: 15px;
+}
+
+.Buscador_input{
+  font-size: 18px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
