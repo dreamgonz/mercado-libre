@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Buscador from './components/buscador/Buscador';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <div>
-        <Buscador />
         <App />
     </div>
 , document.getElementById('root'));

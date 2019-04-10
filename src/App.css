@@ -32,6 +32,55 @@
   font-size: 18px;
 }
 
+.Detalle{
+  background-color: #EEEEEE;
+}
+
+.Detalle .subtituloHeader{
+  margin-top:32px; 
+  margin-bottom:16px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.Detalle .tituloHeader{
+  
+  font-size: 24px;
+  text-align: left;
+}
+
+.Detalle .precioHeader{
+  margin-top:36px;
+  font-size: 46px;
+  text-align: left;
+}
+
+.Detalle .botonHeader{
+  margin-top:36px;
+  margin-right: 32px;
+  
+}
+
+.Detalle .tituloDesc{
+  font-size: 28px;
+  text-align: left;
+}
+
+.Detalle .breadcrumb > li + li:before {
+  color: #ccc;
+  content: ">";
+  padding: 0 5px;
+}
+
+.Detalle .breadcrumb >.active a {
+  color: #333333;
+}
+
+.Detalle .breadcrumb > li a {
+  color: #666666;
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
